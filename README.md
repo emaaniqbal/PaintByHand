@@ -16,11 +16,36 @@ Functionalities:
 - Save Painting (save as .jpg files)
 - Quit
 
-Requirements
+Cloning the repository
 ===============================
+
+**1.** Into Command Prompt type:
+
+```bash
+ git clone https://github.com/emaaniqbal/PaintByHand.git
+```
+
+**2.** Set up virtual environment:
+```bash
+cd PaintByHand
+```
+
+```bash
+python -m venv .venv
+```
+```bash
+.venv\Scripts\activate
+```
+**3.** requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+
+Run the files in any IDE.
+
 **Uses Mediapipe, OpenCV, and Pygame for this to work**
 
-If you have issues, you can try to input these into the cmd prompt:
+If you have issues with imports, you can try to input these into the cmd prompt:
 
 ```bash
 pip install opencv-python
